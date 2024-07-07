@@ -1,5 +1,7 @@
 Student Enrollment Form 📝
-This project implements a student enrollment form using HTML, CSS, and JavaScript. It allows users to input student details and display enrolled students dynamically on the web page.
+
+This project implements a student enrollment form using HTML, CSS, and JavaScript. 
+It allows users to input student details and display enrolled students dynamically on the web page.
 
 Features ✨
 Form Fields: Collects student name, email, contact number, address, date of birth, LinkedIn URL, image link, gender, course, and skills.
