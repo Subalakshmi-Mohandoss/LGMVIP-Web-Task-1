@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #555555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+button {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #20b2aa;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+#studentsList {
+  width: 50%;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.student {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.student img {
+  max-width: 150px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.student div {
+  flex-grow: 1;
+}
